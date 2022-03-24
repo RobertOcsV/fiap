@@ -1,7 +1,8 @@
-x = input("Digite a base:  ")
-y = input("Digite o expoente: ")
+x = int(input("Digite a base:  "))
+y = int(input("Digite o expoente: "))
 
 
-x = int(x) ** int(y)
+x = x ** y
 
-print("o resultado da potência é: ", str(x))
+print("o resultado da potência é: ", x)
+

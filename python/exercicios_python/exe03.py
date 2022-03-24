@@ -1,23 +1,23 @@
-valor1 = input("insira um valor: ")
-valor2 = input("Insira outro valor: ")
+valor1 = int(input("insira um valor: "))
+valor2 = int(input("Insira outro valor: "))
 
 
 
 #Adição
-calculo = int(valor1) + int(valor2)
-print("A soma de", int(valor1),"+",int(valor2), "é:", int(calculo))
+calculo = valor1 + valor2
+print("A soma de", valor1,"+",valor2, "é:", calculo)
 
 #Multiplicação
-calculo = int(valor1) * int(valor2)
-print("A multiplicação de", int(valor1),"*",int(valor2), "é:", int(calculo))
+calculo = (valor1) * (valor2)
+print("A multiplicação de", (valor1),"*",(valor2), "é:", (calculo))
 
 #Divisão
-calculo = int(valor1) // int(valor2)
-print("A Divisão de", int(valor1),"//",int(valor2), "é:", int(calculo))
+calculo = valor1 // valor2
+print("A Divisão de", valor1,"//",valor2, "é:", calculo)
 
 #Resto da Divisão
-calculo = int(valor1) % int(valor2)
-print("O resto da divisão é: ", int(valor1),"%",int(valor2), "é:", int(calculo))
+calculo = valor1 % valor2
+print("O resto da divisão é: ", valor1,"%", valor2, "é:", calculo)
 
 # ---------------------
 

@@ -1,7 +1,7 @@
 nome = input("Digite o seu nome: ")
 
-ano = input("Em que ano você nasceu?  ")
+ano = int(input("Em que ano você nasceu?  "))
 
-ano = 2022 - int(ano)  
+ano = 2022 - ano  
 
-print(str(nome) , "Você tem" , int(ano))
+print(nome , "Você tem" , ano, "anos")
