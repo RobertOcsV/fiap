@@ -31,7 +31,6 @@ public class ex16 {
 					+ "\n os catetaos precisam ser somados e "
 					+ "\n dar o mesmo valor da hipotenusa");
 			
-			
 		}
 
 		
