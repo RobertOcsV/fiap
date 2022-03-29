@@ -29,9 +29,9 @@ public class ex18 {
 			System.out.printf("Veiculo muito lento %.1f /40", v);
 		}else if((v > 40) && v <= 60)  {
 			System.out.printf("Velocidade permitida %.1f /60", v);
-		} else if ((v > 60) && v <= 80 ){
+		} else if (v <= 80 ){
 			System.out.printf("Velocidade de cruzeiro %.1f /80", v);
-		} else if((v > 80) && v <= 120) {
+		} else if(v <= 120) {
 			System.out.printf("Veiculo Rápido %.1f /120", v);
 		}else{
 			System.out.printf("Veiculo muito rápido %.1f - min/120", v);
