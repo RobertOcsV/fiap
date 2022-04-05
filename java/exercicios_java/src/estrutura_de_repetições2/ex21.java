@@ -12,19 +12,22 @@ public class ex21 {
 		int valor; 
 		
 		do {
-		System.out.printf("Insira um valor positivo: ");
+		System.out.printf("\n  Insira um valor positivo:    " );
 		valor = ler.nextInt();
+		
+		if(valor <= 0){
+			System.out.printf(" Erro, número negativo! error404");
+			
+		}
+			
 		}
 		
 		while(valor <= 0); {
 			
-			System.out.printf("É um valor negativo, digite novamente.");
+			System.out.printf("Certo, é um valor positivo.");
 			
 		}
 			
-			
-			
-		
 		
 		
 		
