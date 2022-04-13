@@ -29,7 +29,7 @@ public class Pessoa {
 	
 	public String exibirDadosConta() {
 		
-		return("agencia:" + this.conta.agencia  + "\n" + "numero: " + this.conta.numero + "saldo: " + this.conta.saldo);
+		return("agencia:" + this.conta.agencia  + "\n" + "numero: " + this.conta.numero + "\n" + "saldo: " + this.conta.saldo);
 		
 	}
 	
