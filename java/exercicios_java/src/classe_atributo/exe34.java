@@ -14,15 +14,23 @@ public class exe34 {
 		
 		for(int i=0; i>2; i++){
 			
-			Pessoa p;
-			
-			System.out.printf("");
 			
 			
+			System.out.printf("Insira o id");
+			p.id = nextInt();
+			
+			
+			
+			listaPessoa[i] = p;	
 		}
 		
 		
 
+	}
+
+	private static int nextInt() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 }

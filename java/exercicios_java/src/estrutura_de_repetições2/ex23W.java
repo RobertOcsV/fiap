@@ -7,32 +7,41 @@ public class ex23W {
 
 	public static void main(String[] args) {
 		
-		Scanner ler = new Scanner(System.in);
-		Scanner cin = new Scanner(System.in);
-
 		
-		char sexo;
+		Scanner ler = new Scanner(System.in);
+		
+		
+		String sexo;
+		
+		
 		
 		System.out.printf("Insira o seu sexo (M) para masculino e (F) para feminino: ");
-		sexo = cin.nextLine().charAt(0);
+		sexo = ler.next();
 		
-			while(sexo.equals) {
+		sexo.toUpperCase();
+		
+		while((sexo != 'm') || (sexo != "f") || (sexo != "M") || (sexo != "F") )     {
 			
-				if(sexo =='F') {
-					
-					System.out.printf("Seu sexo é feminino");
-					break;
-				}else if (sexo == 'M') {
-					System.out.printf("Seu sexo é masculino");
-					break;
-				}else {
-					System.out.printf("Valor inválido, Insira (M) ou (F) ");
-					sexo = cin.nextLine().charAt(0);
-				}	
-			}
+			System.out.printf("Digite o o seu sexo novamente: ");
+			sexo = ler.next();
+			
+		}
 		
-			System.out.printf("FIM");
-
+		System.out.printf("seu sexo é:  " ,sexo);
+		
+		/*( ((sexo.equals("m")) || (sexo.equals("M")) || (sexo.equals("f")) || (sexo.equals("F")) ))*/
+		
+		/*
+		 
+		calc = sexo;
+		calc = sexo - 32;		
+		sexo = (char)calc;
+		*/
+		
+		
+		
+			/* sexo = cin.nextLine().charAt(0); */
+					
 	}
-
+	
 }

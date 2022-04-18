@@ -31,9 +31,9 @@
 			
 			for(int i=0; i<2; i++) {
 				
+				listaDeProdutos[i].valor = listaDeProdutos[i].quantidade * listaDeProdutos[i].valor;
+				
 				if(listaDeProdutos[i].valor <= 100) {
-					
-					listaDeProdutos[i].valor = listaDeProdutos[i].quantidade * listaDeProdutos[i].valor;
 					
 					System.out.printf("\n identificaçãoP: %d, produtoD: %s, quantidade: %d, valor: %.2f",
 					listaDeProdutos[i].id , listaDeProdutos[i].descricao, listaDeProdutos[i].quantidade,listaDeProdutos[i].valor) ;
