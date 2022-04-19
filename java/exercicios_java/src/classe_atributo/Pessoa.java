@@ -10,7 +10,7 @@ public class Pessoa {
 	
 	
 	
-	Pessoa(int id, String nome, int idade, String email, ContaBancaria conta){
+	public Pessoa(int id, String nome, int idade, String email, ContaBancaria conta){
 		
 		this.id = id;
 		this.nome = nome;

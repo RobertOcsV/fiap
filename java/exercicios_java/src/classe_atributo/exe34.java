@@ -14,8 +14,7 @@ public class exe34 {
 		
 		for(int i=0; i>2; i++){
 			
-			
-			
+		
 			System.out.printf("Insira o id");
 			p.id = nextInt();
 			
